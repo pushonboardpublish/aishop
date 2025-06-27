@@ -1,0 +1,2 @@
+docker build -t aishop .
+docker run --env-file .env -p 5000:5000 aishop
